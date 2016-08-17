@@ -9,9 +9,9 @@ branches:
 node_js:
 - '0.10'
 before_script:
-- git config --global user.name "Jichao Ouyang"
-- git config --global user.email "oyanglulu@gmail.com"
-- export REPO_URL="https://$GH_TOKEN@github.com/jcouyang/jcouyang.github.com.git"
+- git config --global user.name "Pietro Di Bello"
+- git config --global user.email "pietro.dibello@xpeppers.com"
+- export REPO_URL="https://$GH_TOKEN@github.com/xpepper/xpepper.github.com.git"
 script:
 - grunt-init config
 - npm test
@@ -28,4 +28,4 @@ after_success:
 - git push blogist master -f -q
 env:
   global:
-  - secure: MNA6NFLkLtwZfIM22/eT9zhQSIQOLzw1R3azvFwqQsuJVtv1aeZwVqIJd+FA40htMCn+RSXJXjTDJk0L240HX0SO78LRdyDaondH13Yx7K8tYHoBm59+Zm/okuYBOTZwpKWjFDVPhxHEQTlXAfkphXAmaArmPbrnzwOlAmZABzU=
+    secure: hLoiP3F+SgPDpnavKgERnFLN9CntJO5rM1lurl0/ESNgutvNWSHYz3qZm77YlsDJBiu13tDgouBDVQknBppl7+f4eYPqHGw9rmVTCysj1vJ1aS/dA4kheYEQc83gQsxHs5R8G6RxpIZTCa5Yb+SvJ1wmYWa5mbwZTehB5DlNyTJ+gYcBHUT6r3Zoa/BMPWhPn6ICyFKcyi/dPXnSBExRT1zLnO+wdno+8cMs6OYocQMNPFaNz+ajKcpc9EuFp5Iy7QfsyhUwRwOMBNfiY4ZQNH3h814JUSpeFnkCOMkn2HbiQeIBZ5aHkQe89rqJ6TudbNREoNNVnq+HpBq+iiEmVSNdiPVfI1EoY72k6GdGnWHwHkucMDbUWFqbLhBjfijwKJdJWSQsg8JVj4I62i7qPZnAi2U+uxslO2ea3qp7CBCmlHde2u73jJaqzVlkAiGNx3mF/5+CKyaLEFa5NoAnoVE9UU00bvXbz4rtvfQiF2F7jHxht3es2kJ6VJMoIjBTqzLSy4+b/nANdZ/aOTgV3LFogHAAGq0sZAkUR0Ej51P6uAQnkFcU76oDBgHmCxyEfzIEXhb71dXWXw8p6itv0xW/7cK8OCMiw5od2HuL+/ZkavkWuEPvv7H2eJ/zvjTw7LCbmu8TbxVBQey+WsAfX6EOi6/GqKo5yp7yEVQdAxQ=
